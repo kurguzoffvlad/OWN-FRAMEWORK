@@ -1,0 +1,23 @@
+$header-height: 34px;
+$toolbar-height: 40px;
+$formula-height: 24px;
+$info-cell-width: 40px;
+$cell-width: 120px;
+$row-height: 24px;
+$db-header-height: 64px;
+$border-color: #c0c0c0;
+$primary-color: #3c74ff;
+
+:root[theme='bright']{
+  --panel-bg-color: #dfe4ea;
+  --text-color: #2f3542;
+  --shadow-color: #262f3542;
+  --hover: green;
+}
+:root[theme='dark'] {
+  --panel-bg-color: #2f3542;
+  --text-color: #ced6e0;
+  --shadow-color: #26ced6e0;
+  --hover: blue;
+}
+

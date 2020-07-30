@@ -1,0 +1,44 @@
+@mixin button($color: green) {
+  height: 24px;
+  min-width: 24px;
+  padding: 3px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  color: rgba(0, 0, 0, .7);
+
+  & i {
+    font-size: 18px;
+  }
+
+  &:active, &.active {
+    color: $color;
+  }
+
+  &:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+}
+
+
+@mixin clear-list() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin start() {
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50vh;
+}
+
+@mixin transition() {
+  -webkit-transition: width .5s ease-in-out, height .5s ease-in-out, left .5s ease-in-out, top .5s ease-in-out;
+  -moz-transition: width .5s ease-in-out, height .5s ease-in-out, left .5s ease-in-out, top .5s ease-in-out;
+  -o-transition: width .5s ease-in-out, height .5s ease-in-out, left .5s ease-in-out, top .5s ease-in-out;
+  -ms-transition: width .5s ease-in-out, height .5s ease-in-out, left .5s ease-in-out, top .5s ease-in-out;
+  transition: width .5s ease-in-out, height .5s ease-in-out, left .5s ease-in-out, top .5s ease-in-out;
+}
