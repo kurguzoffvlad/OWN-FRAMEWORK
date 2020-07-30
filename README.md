@@ -1,7 +1,7 @@
 # ![#c5f015](https://placehold.it/15/c5f015/000000?text='') OWN-FRAMEWORK
 ### [Репозиторий приложения](https://github.com/kurguzoffvlad/OWN-FRAMEWORK.git)
 
-## СОБСТВЕННЫЙ РОУТИНГ - hashchange
+## СОБСТВЕННЫЙ КЛАСС ДЛЯ РОУТИНГА - hashchange
 ## СОБСТВЕННЫЙ КЛАСС ДЛЯ ПРОСЛУШКИ СОБЫТИЙ - click/onClick
 ## СОБСТВЕННЫЙ КЛАСС EMITTER - emit, subscribe
 ## СОБСТВЕННЫЙ СТОР - subscribe, dispatch, getState
