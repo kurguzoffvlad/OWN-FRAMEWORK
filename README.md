@@ -1,4 +1,4 @@
-# ![#c5f015](https://placehold.it/15/c5f015/000000?text='') ФРЕЙМВОРК MINI
+# ![#c5f015](https://placehold.it/15/c5f015/000000?text='') OWN-FRAMEWORK
 ### [Репозиторий приложения](https://github.com/kurguzoffvlad/OWN-FRAMEWORK.git)
 
 ## СОБСТВЕННЫЙ РОУТИНГ - hashchange
